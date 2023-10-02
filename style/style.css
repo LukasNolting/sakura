@@ -1,0 +1,235 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", "serif";
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0%;
+  right: 0%;
+  color: white;
+  font-size: 96px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+
+h2 {
+  font-weight: bold;
+  color: #9f0908;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  margin-top: 0;
+}
+
+.economica {
+  font-family: "Economica", "serif";
+}
+
+.head {
+  background-image: url("../img/head_background.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.menu {
+  top: 0;
+  height: 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  margin-right: 160px;
+  margin-bottom: 20vh;
+}
+
+.menu-text {
+  padding-right: 35px;
+  color: white;
+}
+
+.menu-text:hover {
+  text-decoration: underline;
+}
+
+.phone {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  border-color: white;
+  background-color: #9f0908;
+  border-radius: 15px;
+  border-width: 5px;
+  border-style: ridge;
+}
+
+.phone:hover {
+  background-color: #be1313;
+}
+
+.phone-img {
+  height: 25px;
+  width: 25px;
+  margin-bottom: -5px;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+.flower {
+  width: 64px;
+  height: 64px;
+  margin-left: 160px;
+  top: 24px;
+}
+
+.text-down {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  left: 0%;
+  right: 0%;
+  color: white;
+  font-weight: normal;
+}
+
+.how-to-order {
+  margin-bottom: 120px;
+}
+
+.how-to-order-overwiev {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  text-align: center;
+  font-size: 56px;
+  margin-top: 64px;
+}
+
+.pic {
+  height: 128px;
+  width: 128px;
+  margin-bottom: 16px;
+}
+
+.our-menu {
+  background-image: url("../img/third_background.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: calc(120px - 56px);
+}
+
+.our-menu-text {
+  text-align: center;
+  padding-top: 120px;
+  font-size: 80px;
+  margin-bottom: 64px;
+  color: #9f0908;
+  font-weight: bold;
+}
+
+.our-menu-img {
+  height: 352px;
+  width: 352px;
+}
+
+.menu-right {
+  padding-left: 120px;
+  display: flex;
+  margin-bottom: 56px;
+}
+
+.menu-left {
+  padding-right: 120px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 56px;
+}
+
+.table-menu-right {
+  margin-left: 80px;
+  font-weight: bold;
+  font-size: 32px;
+  color: #675e54;
+  padding: 8px;
+}
+
+.table-menu-left {
+  margin-right: 80px;
+  font-weight: bold;
+  font-size: 32px;
+  color: #675e54;
+}
+
+.font-head {
+  font-size: 56px;
+  color: black;
+  font-family: "Economica", "serif";
+  padding-bottom: 16px;
+}
+
+td {
+  padding-bottom: 8px;
+}
+
+.find-us-text {
+  text-align: center;
+  width: 100%;
+  font-size: 80px;
+  color: #9f0908;
+  font-weight: bold;
+}
+
+.address {
+  font-size: 24px;
+  color: #675e54;
+  margin-bottom: 64px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.pin-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.map {
+  width: 100%;
+  height: 550px;
+  border: 0;
+}
+
+.footer {
+  position: absolute;
+  background-color: #0a141e;
+  width: 100%;
+  height: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sakura-logo {
+  height: 44px;
+  padding-left: 160px;
+}
+
+.icons {
+  height: 40px;
+  width: 40px;
+  padding-right: 20px;
+}
+.distance {
+  padding-right: 140px;
+}
