@@ -233,3 +233,221 @@ td {
 .distance {
   padding-right: 140px;
 }
+
+/* Media 1100px */
+
+@media (max-width: 1100px) {
+  .menu-link {
+    display: none;
+  }
+  .menu-left {
+    padding-right: 50px;
+  }
+}
+
+/* Media 1000px */
+
+@media (max-width: 1000px) {
+  .menu-right {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    padding-left: 0;
+  }
+  .table-menu-right {
+    padding-top: 30px;
+    margin-left: 0;
+    align-content: center;
+  }
+
+  tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-around;
+  }
+
+  .menu-left {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .table-menu-left {
+    padding-top: 30px;
+    margin-right: 0;
+  }
+
+  .our-menu {
+    padding-bottom: 30px;
+  }
+}
+
+/* Media 850px (Logo tauschen) */
+
+@media (min-width: 850px) {
+  .sakura-logo-media {
+    display: none;
+  }
+}
+
+/* Media 849px */
+
+@media (max-width: 849px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  .sakura-logo {
+    display: none;
+  }
+
+  .sakura-logo-media {
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer {
+    justify-content: space-around;
+  }
+
+  .distance {
+    padding-right: 0;
+  }
+
+  h2 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 60px;
+  }
+
+  .how-to-order-overwiev {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .pic {
+    margin-top: 30px;
+  }
+}
+
+/* Media 650px */
+
+@media (max-width: 650px) {
+  h1 {
+    margin: 20px;
+    justify-content: flex-end;
+    text-align: center;
+  }
+
+  .flower {
+    margin-left: 0;
+  }
+
+  .menu {
+    justify-content: space-evenly;
+    margin-right: 0px;
+    margin-bottom: 80px;
+  }
+
+  .address {
+    margin-bottom: 50px;
+  }
+}
+
+/* Media 550px */
+
+@media (max-width: 550px) {
+  .menu-left {
+    justify-content: space-between;
+  }
+
+  .menu-right {
+    justify-content: space-between;
+  }
+
+  tr th {
+    width: 320px;
+  }
+
+  .address {
+    font-size: 18px;
+    padding: 0 15px 50px 17px;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+  }
+}
+
+/* Media 390px */
+
+@media (max-width: 390px) {
+  .flower {
+    width: 50px;
+    height: 50px;
+  }
+
+  .phone {
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    border-color: white;
+    background-color: #9f0908;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: ridge;
+    font-size: 20px;
+  }
+
+  h1 {
+    margin: 10px;
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 50px;
+    margin-top: 0;
+  }
+
+  .menu {
+    margin-bottom: 60px;
+  }
+
+  .text-down {
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .our-menu {
+    padding-bottom: 10px;
+  }
+
+  .our-menu-img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .font-head {
+    font-size: 40px;
+  }
+
+  td {
+    font-size: 20px;
+  }
+
+  tr th {
+    width: 260px;
+  }
+
+  .map {
+    height: 300px;
+  }
+
+  .menu-right {
+    margin-bottom: 40px;
+  }
+  .menu-left {
+    margin-bottom: 40px;
+  }
+}
