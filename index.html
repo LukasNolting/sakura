@@ -31,45 +31,57 @@
           <a href="#"><img src="./img/head_flower.png" class="flower" /></a>
         </div>
 
-        <div>
+        <div class="menu-right-head">
           <a href="#menu" class="menu-link"
-            ><span class="menu-text">MENU</span></a
+            ><span class="menu-text" id="menu">MENU</span></a
           >
           <a href="#findus" class="menu-link"
-            ><span class="menu-text">LOCATION</span></a
+            ><span class="menu-text" id="location">LOCATION</span></a
           >
           <a href="#about" class="menu-link"
-            ><span class="menu-text">ABOUT</span></a
+            ><span class="menu-text" id="about">ABOUT</span></a
           >
           <a href="tel:017654564534" class="phone"
             ><img src="./img/head_phone.png" class="phone-img" /> 0176
             54564534</a
           >
+          <a href="#" onclick="german()" class="flag-logo"
+            ><img class="lang-icon" src="./img/german.png" alt="deutsch"
+          /></a>
+          <a href="#" onclick="english()" class="flag-logo"
+            ><img class="lang-icon" src="./img/english.png" alt="english"
+          /></a>
         </div>
       </div>
 
       <h1>SAKURA RAMEN</h1>
-      <span class="text-down">THE BEST RAMEN IN TOWN</span>
+      <span class="text-down" id="ramen">THE BEST RAMEN IN TOWN</span>
     </section>
 
     <section class="how-to-order">
-      <h2>HOW TO ORDER</h2>
+      <h2 id="howto">HOW TO ORDER</h2>
 
       <div class="how-to-order-overwiev economica">
         <div>
-          <img src="./img/hto_noodle.png" class="pic" /><br />Pick your<br />noodle
+          <img src="./img/hto_noodle.png" class="pic" /><span id="noodle"
+            ><br />Pick your<br />noodle</span
+          >
         </div>
         <div>
-          <img src="./img/hto_broth.png" class="pic" /><br />Pick your<br />broth
+          <img src="./img/hto_broth.png" class="pic" /><span id="broth"
+            ><br />Pick your<br />broth</span
+          >
         </div>
         <div>
-          <img src="./img/hto_egg.png" class="pic" /><br />Add your<br />toppings
+          <img src="./img/hto_egg.png" class="pic" /><span id="toppings"
+            ><br />Add your<br />toppings</span
+          >
         </div>
       </div>
     </section>
 
     <section class="our-menu raleway" id="menu">
-      <h2>OUR MENU</h2>
+      <h2 id="our-menu">OUR MENU</h2>
 
       <div class="menu-right">
         <div>
@@ -80,18 +92,18 @@
           />
         </div>
         <table class="table-menu-right">
-          <th class="font-head">Tonkotsu Ramen</th>
+          <th class="font-head" id="tonkotsu">Tonkotsu Ramen</th>
 
           <tr>
-            <td>CHICKEN</td>
+            <td id="chicken-tonkotsu">CHICKEN</td>
             <td>11.95€</td>
           </tr>
           <tr>
-            <td>BEEF</td>
+            <td id="beef-tonkotsu">BEEF</td>
             <td>12.95€</td>
           </tr>
           <tr>
-            <td>SHRIMP</td>
+            <td id="shrimp-tonkotsu">SHRIMP</td>
             <td>13.95€</td>
           </tr>
         </table>
@@ -107,18 +119,18 @@
         </div>
         <table class="table-menu-left">
           <tr>
-            <th class="font-head">Spicy Miso Ramen</th>
+            <th class="font-head" id="miso">Spicy Miso Ramen</th>
           </tr>
           <tr>
-            <td>CHICKEN</td>
+            <td id="chicken-spicy">CHICKEN</td>
             <td>11.95€</td>
           </tr>
           <tr>
-            <td>BEEF</td>
+            <td id="beef-spicy">BEEF</td>
             <td>12.95€</td>
           </tr>
           <tr>
-            <td>SHRIMP</td>
+            <td id="shrimp-spicy">SHRIMP</td>
             <td>13.95€</td>
           </tr>
         </table>
@@ -130,18 +142,18 @@
         </div>
         <table class="table-menu-right">
           <tr>
-            <th class="font-head">Shio Ramen</th>
+            <th class="font-head" id="shio">Shio Ramen</th>
           </tr>
           <tr>
-            <td>CHICKEN</td>
+            <td id="chicken-shio">CHICKEN</td>
             <td>11.95€</td>
           </tr>
           <tr>
-            <td>BEEF</td>
+            <td id="beef-shio">BEEF</td>
             <td>12.95€</td>
           </tr>
           <tr>
-            <td>SHRIMP</td>
+            <td id="shrimp-shio">SHRIMP</td>
             <td>13.95€</td>
           </tr>
         </table>
@@ -184,4 +196,5 @@
       </div>
     </section>
   </body>
+  <script src="./script/script.js"></script>
 </html>

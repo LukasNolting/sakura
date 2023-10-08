@@ -48,12 +48,11 @@ h2 {
   justify-content: space-between;
   align-items: center;
   font-size: 24px;
-  margin-right: 160px;
+  /* margin-right: 100px; */
   margin-bottom: 20vh;
 }
 
 .menu-text {
-  padding-right: 35px;
   color: white;
 }
 
@@ -70,6 +69,7 @@ h2 {
   border-radius: 15px;
   border-width: 5px;
   border-style: ridge;
+  width: 200px;
 }
 
 .phone:hover {
@@ -146,14 +146,13 @@ h2 {
 .menu-right {
   padding-left: 120px;
   display: flex;
-  margin-bottom: 56px;
+  flex-direction: reverse;
 }
 
 .menu-left {
   padding-right: 120px;
   display: flex;
   flex-direction: row-reverse;
-  margin-bottom: 56px;
 }
 
 .table-menu-right {
@@ -169,6 +168,7 @@ h2 {
   font-weight: bold;
   font-size: 32px;
   color: #675e54;
+  padding: 8px;
 }
 
 .font-head {
@@ -220,6 +220,13 @@ td {
   justify-content: space-between;
 }
 
+tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-around;
+  width: 340px;
+}
+
 .sakura-logo {
   height: 44px;
   padding-left: 160px;
@@ -232,6 +239,24 @@ td {
 }
 .distance {
   padding-right: 140px;
+}
+
+.lang-icon {
+  height: 40x;
+  width: 40px;
+  gap: 100px;
+}
+
+.flag-logo {
+  gap: 1000px;
+}
+
+.menu-right-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 35px;
 }
 
 /* Media 1100px */
@@ -281,6 +306,16 @@ td {
   .our-menu {
     padding-bottom: 30px;
   }
+
+  .flag-logo {
+    display: none;
+  }
+  .phone {
+    margin-top: 30px;
+  }
+}
+.flower {
+  padding-left: 24px;
 }
 
 /* Media 850px (Logo tauschen) */
@@ -400,6 +435,7 @@ td {
     border-width: 2px;
     border-style: ridge;
     font-size: 20px;
+    width: 170px;
   }
 
   h1 {
@@ -454,5 +490,3 @@ td {
     margin-bottom: 40px;
   }
 }
-
-
