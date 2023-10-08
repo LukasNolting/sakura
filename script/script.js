@@ -20,3 +20,7 @@ function german() {
   document.getElementById("shrimp-shio").innerHTML = "GARNELEN";
   document.getElementById("findus").innerHTML = "BESUCHE UNS";
 }
+
+function english() {
+  location.reload();
+}
